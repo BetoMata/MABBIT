@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:mabbit/widgets/gradient_button.dart';
-import 'package:mabbit/screens/register/register_screen.dart';
 
-class LoginForm extends StatefulWidget {
+class RegisterForm extends StatefulWidget {
   @override
   _LoginFormState createState() => _LoginFormState();
 }
 
-class _LoginFormState extends State<LoginForm> {
+class _LoginFormState extends State<RegisterForm> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
 
@@ -45,22 +44,12 @@ class _LoginFormState extends State<LoginForm> {
             GradientButton(
               width: 150,
               height: 45,
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => RegisterScreen()));
-              },
+              onPressed: () {},
               text: Text('LogIn', style: TextStyle(color: Colors.white)),
               icon: Icon(Icons.check, color: Colors.white),
             ),
             SizedBox(
               height: 10,
-            ),
-            GradientButton(
-              width: 150,
-              height: 45,
-              onPressed: () {},
-              text: Text('Register', style: TextStyle(color: Colors.white)),
-              icon: Icon(Icons.arrow_forward, color: Colors.white),
             ),
           ],
         )));

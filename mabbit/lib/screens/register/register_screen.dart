@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:mabbit/screens/login/login_form.dart';
 import 'package:mabbit/widgets/curved_widget.dart';
+import 'package:mabbit/screens/register/register_form.dart';
 
-class LoginScreen extends StatelessWidget {
+class RegisterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         extendBodyBehindAppBar: true,
-        appBar: AppBar(elevation: 0, backgroundColor: Colors.transparent),
+        appBar: AppBar(
+            elevation: 0,
+            backgroundColor: Colors.transparent,
+            iconTheme: IconThemeData(
+              color: Color(0xff6a515e),
+            )),
         body: Container(
           height: double.infinity,
           decoration: BoxDecoration(
@@ -32,7 +37,7 @@ class LoginScreen extends StatelessWidget {
                         Colors.white.withOpacity(0.4)
                       ])),
                   child: Text(
-                    'Login',
+                    'Register',
                     style: TextStyle(
                       fontSize: 40,
                       color: Color(0xff6a515e),
@@ -42,7 +47,7 @@ class LoginScreen extends StatelessWidget {
               ),
               Container(
                 margin: const EdgeInsets.only(top: 230),
-                child: LoginForm(),
+                child: RegisterForm(),
               )
             ],
           )),

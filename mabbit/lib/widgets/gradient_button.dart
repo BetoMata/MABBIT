@@ -1,48 +1,43 @@
 import 'package:flutter/material.dart';
 
-class CurvedWidget extends StatelessWidget {
-  final Widget child;
-  final double curvedDistance;
-  final double curvedHeight;
+class GradientButton extends StatelessWidget {
+  final double width;
+  final double height;
+  final Function onPressed;
+  final Text text;
+  final Icon icon;
 
-  const CurvedWidget(
-      {Key key, this.curvedDistance = 80, this.curvedHeight = 80, this.child})
+  const GradientButton(
+      {Key key, this.width, this.height, this.onPressed, this.text, this.icon})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ClipPath(
-      clipper: CurvedWidgetBackgroundClipper(
-        curvedDistance: curvedDistance,
-        curvedHeight: curvedHeight,
+    return Container(
+      width: this.width,
+      height: this.height,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(80),
+        gradient: LinearGradient(
+          begin: Alignment.centerLeft,
+          end: Alignment.centerRight,
+          colors: [Color(0xffffae88), Color(0xff8f93ea)],
+        ),
       ),
-      child: child,
+      child: MaterialButton(
+          onPressed: this.onPressed,
+          materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+          shape: StadiumBorder(),
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: <Widget>[
+                text,
+                icon,
+              ],
+            ),
+          )),
     );
-  }
-}
-
-class CurvedWidgetBackgroundClipper extends CustomClipper<Path> {
-  final double curvedDistance;
-  final double curvedHeight;
-
-  CurvedWidgetBackgroundClipper({this.curvedDistance, this.curvedHeight});
-
-  @override
-  getClip(Size size) {
-    Path clippedPath = Path();
-    clippedPath.lineTo(size.width, 0);
-    clippedPath.lineTo(size.width, size.height - curvedDistance - curvedHeight);
-    clippedPath.quadraticBezierTo(size.width, size.height - curvedHeight,
-        size.width - curvedDistance, size.height - curvedHeight);
-    clippedPath.lineTo(curvedDistance, size.height - curvedHeight);
-    clippedPath.quadraticBezierTo(
-        0, size.height - curvedHeight, 0, size.height);
-    clippedPath.lineTo(0, 0);
-    return clippedPath;
-  }
-
-  @override
-  bool shouldReclip(CustomClipper oldClipper) {
-    return false;
   }
 }
