@@ -1,16 +1,13 @@
-# mabbit_app
+# MABBIT_APP 
+Esta carpeta contiene la interfaz para cumplir con la funcionalidad propuesta por el proyecto
+sobre la creacion de habitos en los usuarios, a traves de la elementos de interfaz que brinde
+la retroalimentacion necesaria.
 
-A new Flutter project.
+## Explicacion de la Estructura del Proyecto
+Dentro de la carpeta lib se encuentran contenidos los archivos que manejan la aplicación y
+las pantallas de la aplicacion.
 
-## Getting Started
+- model: Contiene los archivos de datos consumidos para la aplicación para rellenar ciertos
+elementos
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ui/pages: Contiene las pantallas que son mostradas en la aplicación.
