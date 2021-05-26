@@ -18,4 +18,8 @@ mantener el objetivo principal del proyecto mabbit.
 
 ![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidencia/Ev4.PNG)
 
-- 
+- mabbit_login: Se trata de la implementacion del login apropiado para la aplicación,
+teniendo funcionalidad por medio del uso de firebase para el registro y 
+autentificacion del usuario.
+
+![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidencia/Ev6.PNG)
