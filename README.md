@@ -10,6 +10,10 @@ movil.
 - mabbit_app: Se trata de la interfaz deseable para la interfaz del 
 proyecto de mabbit, conteniendo algunos componentes y elementos que
 ejemplifican la funcionalidad.
-- mabbit_interface: Contiene una interfaz 
+
+![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidencia/Ev1.PNG)
+
+- mabbit_interface: Contiene la interfaz que se considera adeacuada para 
+mantener el objetivo principal del proyecto mabbit.
 
 ![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidencia/Ev1.PNG)

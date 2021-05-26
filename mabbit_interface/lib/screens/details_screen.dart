@@ -88,7 +88,7 @@ class DetailsScreen extends StatelessWidget {
                     ),
                     SizedBox(height: 20),
                     Text(
-                      "Seguimieno de Meditacion",
+                      "Seguimiento de Meditacion",
                       style: Theme.of(context)
                           .textTheme
                           .title
