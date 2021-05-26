@@ -12,6 +12,8 @@ elementos
 
 - ui/pages: Contiene las pantallas que son mostradas en la aplicación.
 
+- assets: Contiene los recursos graficos utilizados por la aplicación.
+
 ![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev1.PNG)
 
 ![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev2.PNG)

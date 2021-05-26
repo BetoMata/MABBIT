@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'MABBIT',
+      title: 'MABBIT APP',
       theme: ThemeData(
         fontFamily: "Cairo",
         scaffoldBackgroundColor: kBackgroundColor,

@@ -1,16 +1,7 @@
-# mabbit_login
+# MABBIT_LOGIN
+Esta carpeta contiene un login propuesto para el proyecto, conteniendo una conexion real con los
+servicios de firebase para posiblitar el registro de usuarios y el registro con una cuenta de google.
 
-A new Flutter project.
+![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev6.PNG)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev8.PNG)

@@ -1,17 +1,18 @@
 # MABBIT_INTERFACE
-Son las interfaces deseadas para manejar 
+Son las interfaces deseadas para manejorar los habitos personales de los usuarios, por medio
+de una interfaz calida para mantener el enfoque y transmitir consistencia y seriedad de la aplicación.
 
-## Getting Started
+## Explicacion de la Estructura del Proyecto
+La presente aplicacion contiene las siguietes carpetas:
 
-This project is a starting point for a Flutter application.
+- screens: En donde se ubica la pantalla secundaria que serviria de ejemplificacion para el seguimiento de la
+habitos indiduales pero con una naturaleza compartida, ya fueran habitos alimenticios o de deporte.
 
-A few resources to get you started if this is your first Flutter project:
+- widgets: Dentro de esta carpeta esta contenidos componentes individuales de las interfaces que lograron ser 
+segmentados para mejorar el codigo.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- assets: Recursos graficos consumidos por la aplicación.
 
 ![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev4.PNG)
+
+![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev5.PNG)
