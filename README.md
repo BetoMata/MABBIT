@@ -1,4 +1,4 @@
-# MABBIT
+# MABBIT_APP
 Proyecto de desarrollo Móvil sobre aplicación de creación de hábitos   
 
 ## Especificaciones del Proyecto

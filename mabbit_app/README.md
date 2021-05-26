@@ -12,4 +12,3 @@ elementos
 
 - ui/pages: Contiene las pantallas que son mostradas en la aplicación.
 
-![mabbit_app](https://github.com/BetoMata/MABBIT/blob/main/Evidence/Ev1.PNG)

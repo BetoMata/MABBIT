@@ -1,4 +1,4 @@
-# mabbit_interface
+# MABBIT_INTERFACE
 
 A new Flutter project.
 
